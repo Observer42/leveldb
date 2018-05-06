@@ -1,8 +1,13 @@
-# Editors.
-*.sw*
+build_config.mk
+*.a
+*.o
+*.dylib*
+*.so
+*.so.*
+*_test
+db_bench
+leveldbutil
+.idea
 .vscode
-.DS_Store
-
-# Build directory.
-build/
-out/
+cmake-build-*/
+build
